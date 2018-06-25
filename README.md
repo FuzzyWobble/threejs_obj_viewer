@@ -9,5 +9,5 @@ Video demo here -> https://youtu.be/Yj3EBW82-NM
 Live online at -> http://fuzzywobble.com/projects/webgl/obj_viewer/web/index.html
 
 Still missing: 
--> Soft shadows casted on ground plane
--> Smoothing of low poly models like Hulk Hogan
+- Soft shadows casted on ground plane
+- Smoothing of low poly models like Hulk Hogan
