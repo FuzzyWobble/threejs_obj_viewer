@@ -7,3 +7,7 @@ All dependencies are included in /lib with exception to threejs r93 which is loa
 Video demo here -> https://youtu.be/Yj3EBW82-NM
 
 Live online at -> http://fuzzywobble.com/projects/webgl/obj_viewer/web/index.html
+
+Still missing: 
+- Soft shadows casted on ground plane
+- Smoothing of low poly models like Hulk Hogan
