@@ -11,3 +11,4 @@ Live online at -> http://fuzzywobble.com/projects/webgl/obj_viewer/web/index.htm
 Still missing: 
 - Soft shadows casted on ground plane
 - Smoothing of low poly models like Hulk Hogan
+- Loading camera position from matrix. It's always a bit off somehow.
