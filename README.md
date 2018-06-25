@@ -1,6 +1,6 @@
 # threejs_obj_viewer
 
-Codebase for loading and viewing a OBJ/MTL in threejs
+Codebase for loading and viewing a OBJ/MTL in three.js
 
 All dependencies are included in /lib with exception to threejs r93 which is loaded from http src
 
