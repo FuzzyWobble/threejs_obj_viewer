@@ -1,5 +1,7 @@
 # threejs_obj_viewer
 
-codebase for loading and viewing a OBJ/MTL in threejs
+Codebase for loading and viewing a OBJ/MTL in threejs
 
-demo here -> 
+All dependencies are included in /lib
+
+Video demo here -> https://youtu.be/Yj3EBW82-NM
