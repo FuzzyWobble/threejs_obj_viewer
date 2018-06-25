@@ -1,0 +1,99 @@
+
+
+<!-- fuzzywobble.com -->
+<!-- fuzzy wobble made this with his computer -->
+
+
+<!DOCTYPE html>
+
+	<head>
+		<title>obj viewer</title>
+		
+		<meta charset="utf-8">
+
+		<meta property="og:title" content="">
+		<meta property="og:description" content="">
+		<meta property="og:image" content="">
+		<meta property="og:url" content="">
+
+		<link rel="shortcut icon" href="favicon.ico?" type="image/x-icon"/>
+
+		<link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,700,900" rel="stylesheet">
+		
+		<script src="../../lib/jquery-1.11.1.min.js"></script> 
+
+		<script src="../../lib/howler.min.js"></script> <!-- audio/mp3 library -->
+
+		<link rel="stylesheet" href="style.css"/>
+
+	</head>
+
+
+	<body>
+
+
+
+		<!-- ========================================== -->
+		<!-- CANVAS -->
+		<canvas id="canvas_fuzzy_wobble"></canvas>
+
+
+
+		<!-- ========================================== -->
+		<!-- MY UI -->
+		<div class="instructions_3d">CLICK+DRAG to ROTATE &nbsp;&nbsp; SCROLL to ZOOM &nbsp;&nbsp; RIGHTCLICK+DRAG to PAN</div>
+		<div class="loading_whiteout"><div class="rel">
+			<div class="loading_content centerxy">
+				Loading Models
+				<div class="loading_bar_container"><div class="loading_bar"></div></div>
+			</div>
+		</div></div>
+		<div class="instructions_whiteout"><div class="rel">
+			<div class="instructions_content centerxy">
+				This is a demo OBJ/MTL viewer.
+				<div style="height:6px;"></div>
+				Use your mouse to look around!
+				<div style="height:10px;"></div>
+				<div class="okay_button">Okay, I got it!</div>
+			</div>
+		</div></div>
+		<div class="audio_on_off">MUSIC ON/OFF</div>	
+		<div class="models_sel centerx">
+			<span class="model" id="hh01">Hulk Hogan</span> &nbsp;/&nbsp;
+			<span class="model" id="mw01">Mike Wazowski</span>
+		</div>	
+
+
+
+
+
+		<!-- ========================================== -->
+		<!-- LIB JS  -->
+		<script src="https://cdn.rawgit.com/mrdoob/three.js/r93/build/three.js"></script> <!-- loading the three.js build from web source is nice cause you can change the version on the fly (r93) to any version you like -->
+		<script src="../../lib/threejs_addons/OrbitControls2.js"></script> 
+		<script src="../../lib/threejs_93/examples/js/libs/dat.gui.min.js"></script>
+		<script src="../../lib/threejs_93/examples/js/loaders/MTLLoader.js"></script>
+		<script src="../../lib/threejs_93/examples/js/loaders/OBJLoader.js"></script>
+		<script src="../../lib/threejs_addons/ColladaLoader.js"></script>
+		<script src="../../lib/threejs_93/examples/js/libs/stats.min.js"></script>
+
+
+
+
+
+		<!-- ========================================== -->
+		<!-- MY JS  -->
+		<script src="js.js"></script>
+
+
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
